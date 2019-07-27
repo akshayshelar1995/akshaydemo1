@@ -1,0 +1,339 @@
+*{
+padding:0px;
+margine:0px;
+}
+
+.button1{
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ margine: 4px 2px:
+ cursor: pointer;
+}
+.a10 table, td, th {  
+  text-align: left;
+  padding: 15px 25%;
+}
+
+.a1{
+  float: right;
+}
+.a2{
+  float: left;
+ border : 1px solid #ddd;
+}
+
+.a3{
+   
+  background-image: url("Banner Base White@2x.png");
+  text-align: left;
+  padding:75px 75px 100px 240px;
+  text-decoration:none;
+  font-size: 19px; 
+}
+.a4{
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 0.1px 25% ;
+  text-decoration:none;
+  font-size: 17px;
+}
+.a5{
+  background-image: url("Path 1381@2x.png");
+  text-align: center;
+  padding: 15px 20%;
+  text-decoration:none;
+  font-size: 17px; 
+}
+
+#image1 {
+padding: 40px 0px 0px 0px;
+}
+
+table {
+  width: 100%;
+}
+th, td {
+  padding: 15px;
+width:50%;
+}
+
+.a6{
+  background-image: url("Banner Base White@2x.png");
+  text-align: center;
+  padding: 14px 20%;
+  text-decoration:none;
+  font-size: 17px; 
+}
+
+ table, td, th {  
+  text-align: left;
+  padding: 0px 10%;
+}
+#table2 {
+  width: 100%;
+border:1px solid #dbd3d3;
+background-color: white;
+}
+
+
+
+#topnav2  {
+    padding:0px 210px 11px;
+
+}
+.topnav2  {
+    float:center;
+   padding:3px 530px 53px;
+
+}
+
+
+.topnav1 {
+    float:left;
+  padding:0px 117px;
+}
+
+.topnav p {
+    float:center;
+}
+.topnav  {
+     overflow: hidden;
+    float: right;
+ 
+}
+
+.a9{
+  float:right;
+  padding:10px 0px 10px 90px;
+}
+
+
+/* Style the links inside the navigation bar */
+  .topnav a {
+  float: left;
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 12px;
+  border-bottom: 3px solid transparent;
+}
+
+ .topnav a:hover {
+  color: tomato;
+  border-bottom: 3px solid red;
+  
+}
+ .topnav  a.active {
+  color: tomato;
+  border-bottom: 3px solid red;
+}
+
+/*portfolio*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%
+ 
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:#f3f1f1b5;
+  padding: 17%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.a7{
+  background-image: url("Banner Base White@2x.png");
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.a8{
+  background-image: url("Banner Base White@2x.png");
+  text-align: left;
+  float:none ;
+  padding:25px;
+}
+
+
+
+
+/*slider final*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900");
+
+html {
+	height: 100%;
+}
+
+body {
+	background: white;
+                   font-family: Arial;
+}
+
+
+
+.wrapper {
+	text-align: center;	
+	width: 100%;		
+	margin: 0 auto;
+	
+	h1 {
+		font-family: "Lato";
+		text-transform: uppercase;
+	}
+}
+
+.slider {
+	div {
+		padding: 10px;
+	}
+	img {
+		width: 300px;
+		height: 454px;
+		margin: 0 auto;
+		border-radius: 12px;
+		box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	}
+	
+	.slick-slide {
+		border-radius: 12px;		
+	}
+}
+
+.slick-next {
+	right: 50px;
+	z-index: 999;
+}
+
+.slick-prev {
+	left: 50px;
+	z-index: 999;
+}
+.slick-next:before, .slick-prev:before {
+	color: #B6B6B6;
+}
+
+
+/*responsive code */
+
+
+@media screen and (max-width:990px)  {
+  .line1 {
+    float:right;
+  padding:18px 77px 14px 35px;
+}
+
+ .a1 {
+     float :right;
+  padding:20px 0px;
+  }
+#a2{
+ padding:0px 0px 0px 106px;
+}
+
+.a2 img{
+border: 1px solid #ddd;
+}
+.a2 {
+border: 0px solid #ddd;
+}
+.a3 {
+padding:3px 73px 136px 131px;
+}
+.a4 {
+padding:1px 25%;
+}
+
+.button1 {
+    padding: 10px 21px;
+}
+
+ .topnav {
+  padding:5px 73px;
+  }
+ #topnav2 {
+  padding:1px 144px 0px 2px;
+  }
+.topnav2 {
+  padding:0px 38px 0px 0px;
+  }
+
+#table2 {
+    width: 100%;
+}
+#footer2 {
+    text-align:center;
+    padding:0px 57px 0px 0px;  
+}
+.main {
+    max-width: 60%;
+    margin: auto;
+}
+
+
+}
+@media screen and (max-width:450px)  {
+
+
+}
